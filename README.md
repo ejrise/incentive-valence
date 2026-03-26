@@ -2,7 +2,7 @@
 
 ## Overview
 
-Code and cleaned data for Dundon & Rizor et al., Incentive valence differentially engages open- and closed-loop basal ganglia circuits during movement initiation (2025, *PNAS*). Experiment 1: 7T resting-state connectivity of ventral and dorsal putamen. Experiment 2: 3T task fMRI during an incentivized precision reaching task
+Code and cleaned data for Dundon & Rizor et al., Incentive valence differentially engages open- and closed-loop basal ganglia circuits during movement initiation (2025). Experiment 1: 7T resting-state connectivity of ventral and dorsal putamen. Experiment 2: 3T task fMRI during an incentivized precision reaching task
 
 ---
 
