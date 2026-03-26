@@ -1,0 +1,28 @@
+% Full Factorial RM ANOVA: main effects + two-way interactions
+% Greenhouse-Geisser correction applied where num. df > 1
+\begin{table}[htbp]
+\centering
+\caption{Repeated Measures ANOVA: Main Effects and Two-Way Interactions}
+\label{tab:anova_full}
+\small
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{@{}ll|ccc|ccc|ccc|ccc|ccc|ccc@{}}
+\toprule
+ & & \multicolumn{3}{c|}{Incentive} & \multicolumn{3}{c|}{Run} & \multicolumn{3}{c|}{Hold} & \multicolumn{3}{c|}{Incentive$\times$Hold} & \multicolumn{3}{c|}{Incentive$\times$Run} & \multicolumn{3}{c}{Run$\times$Hold} \\
+Variable & Stat & $F$ & $df$ & $p$ & $F$ & $df$ & $p$ & $F$ & $df$ & $p$ & $F$ & $df$ & $p$ & $F$ & $df$ & $p$ & $F$ & $df$ & $p$ \\
+\midrule
+success rate & Mean & 3.2 & 1.7,115.5 & 0.052 & 61.1 & 1.9,129.0 & \textbf{$<$.001} & 23.6 & 1,67 & \textbf{$<$.001} & 4.4 & 1.8,122.6 & \textbf{0.017} & 1.9 & 3.2,216.3 & 0.121 & 0.0 & 1.9,126.9 & 0.977 \\
+RT & Median & 18.5 & 1.8,122.0 & \textbf{$<$.001} & 6.1 & 1.8,118.2 & \textbf{0.004} & 110.5 & 1,67 & \textbf{$<$.001} & 6.6 & 1.7,116.3 & \textbf{0.003} & 2.6 & 2.9,196.2 & 0.056 & 7.4 & 1.8,119.3 & \textbf{0.001} \\
+false starts & Mean & 16.1 & 1.4,91.8 & \textbf{$<$.001} & 37.1 & 2.0,131.1 & \textbf{$<$.001} & 0.2 & 1,67 & 0.668 & 2.9 & 1.7,112.5 & 0.068 & 8.0 & 2.7,178.6 & \textbf{$<$.001} & 2.0 & 1.9,124.8 & 0.137 \\
+max. velocity & Median & 9.9 & 1.4,93.7 & \textbf{$<$.001} & 0.5 & 1.6,105.4 & 0.541 & 4.5 & 1,67 & \textbf{0.037} & 4.7 & 1.5,101.2 & \textbf{0.019} & 4.7 & 2.7,182.9 & \textbf{0.005} & 0.1 & 1.7,114.2 & 0.832 \\
+max. acceleration & Median & 18.0 & 1.4,93.3 & \textbf{$<$.001} & 1.1 & 1.8,117.7 & 0.318 & 0.2 & 1,67 & 0.645 & 2.2 & 1.5,102.9 & 0.126 & 2.8 & 2.5,164.3 & 0.051 & 2.5 & 1.9,124.9 & 0.091 \\
+time to max. vel. & Median & 15.9 & 1.8,118.4 & \textbf{$<$.001} & 7.8 & 1.8,122.6 & \textbf{$<$.001} & 97.7 & 1,67 & \textbf{$<$.001} & 2.3 & 1.8,121.6 & 0.110 & 3.2 & 2.8,190.1 & \textbf{0.026} & 6.7 & 1.8,121.6 & \textbf{0.002} \\
+time to max. acc. & Median & 5.0 & 1.7,116.5 & \textbf{0.011} & 8.9 & 1.9,128.7 & \textbf{$<$.001} & 61.3 & 1,67 & \textbf{$<$.001} & 5.3 & 1.9,127.1 & \textbf{0.007} & 2.3 & 3.3,218.7 & 0.069 & 5.3 & 1.9,124.8 & \textbf{0.007} \\
+initial X position & Median & 1.6 & 1.7,116.2 & 0.204 & 0.9 & 1.8,121.4 & 0.409 & 0.1 & 1,67 & 0.822 & 1.6 & 1.6,105.8 & 0.204 & 0.7 & 3.1,210.4 & 0.576 & 1.4 & 2.0,131.9 & 0.240 \\
+initial Y position & Median & 0.2 & 1.8,123.7 & 0.794 & 5.1 & 1.8,122.0 & \textbf{0.009} & 1.8 & 1,67 & 0.183 & 2.4 & 1.8,122.6 & 0.101 & 0.7 & 3.0,200.8 & 0.570 & 0.0 & 1.9,126.0 & 0.961 \\
+time to quarter acc. & Median & 18.6 & 1.8,119.9 & \textbf{$<$.001} & 8.1 & 1.8,118.5 & \textbf{$<$.001} & 111.6 & 1,67 & \textbf{$<$.001} & 4.3 & 1.7,115.3 & \textbf{0.021} & 3.0 & 2.8,188.8 & \textbf{0.035} & 6.0 & 1.8,118.7 & \textbf{0.005} \\
+\bottomrule
+\end{tabular}}
+\vspace{2mm}
+\footnotesize{Note: Bold = $p < 0.05$. $df$ = numerator, denominator. Greenhouse-Geisser correction applied for effects with numerator $df > 1$ (corrected $df$ shown as decimals).}
+\end{table}

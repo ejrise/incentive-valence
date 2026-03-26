@@ -1,0 +1,430 @@
+================================================================================
+FULL FACTORIAL RM ANOVA (incentive x run x hold)
+Greenhouse-Geisser correction applied where num df > 1
+Post-hocs: paired t-tests with FDR (Benjamini-Hochberg)
+Generated: 2026-03-22 14:51
+================================================================================
+
+================================================================================
+VARIABLE: success rate (mean)
+================================================================================
+
+--- ANOVA effects ---
+             incentive  F=3.19  df=2,134  p=0.0443   [GG: eps=0.862, df=1.7,115.5, p_gg=0.0521]
+                   run  F=61.13  df=2,134  p=0.0000 ***  [GG: eps=0.963, df=1.9,129.0, p_gg=0.0000]
+                  hold  F=23.62  df=1,67  p=0.0000 ***
+        incentive:hold  F=4.41  df=2,134  p=0.0139 *  [GG: eps=0.915, df=1.8,122.6, p_gg=0.0166]
+         incentive:run  F=1.93  df=4,268  p=0.1059   [GG: eps=0.807, df=3.2,216.3, p_gg=0.1212]
+              run:hold  F=0.02  df=2,134  p=0.9805   [GG: eps=0.947, df=1.9,126.9, p_gg=0.9767]
+
+--- Omnibus pairwise: incentive ---
+      Standard vs Jackpot       meandiff = +0.03358  p_raw = 0.0075  p_fdr = 0.0225 *  *
+      Standard vs Robber        meandiff = +0.02448  p_raw = 0.0528  p_fdr = 0.0792  
+       Jackpot vs Robber        meandiff = -0.00910  p_raw = 0.5776  p_fdr = 0.5776  
+
+--- Pairwise: incentive at Short hold ---
+      Standard vs Jackpot       meandiff = +0.00004  p_raw = 0.9982  p_fdr = 0.9982  
+      Standard vs Robber        meandiff = +0.02268  p_raw = 0.1650  p_fdr = 0.3271  
+       Jackpot vs Robber        meandiff = +0.02264  p_raw = 0.2180  p_fdr = 0.3271  
+
+--- Pairwise: incentive at Long hold ---
+      Standard vs Jackpot       meandiff = +0.06713  p_raw < 0.001  p_fdr < 0.001 *  ***
+      Standard vs Robber        meandiff = +0.02628  p_raw = 0.1541  p_fdr = 0.1541  
+       Jackpot vs Robber        meandiff = -0.04085  p_raw = 0.1050  p_fdr = 0.1541  
+
+--- Pairwise: incentive at Run 1 ---
+      Standard vs Jackpot       meandiff = -0.01196  p_raw = 0.5593  p_fdr = 0.8247  
+      Standard vs Robber        meandiff = -0.00583  p_raw = 0.7851  p_fdr = 0.8247  
+       Jackpot vs Robber        meandiff = +0.00613  p_raw = 0.8247  p_fdr = 0.8247  
+
+--- Pairwise: incentive at Run 2 ---
+      Standard vs Jackpot       meandiff = +0.04252  p_raw = 0.0178  p_fdr = 0.0535  
+      Standard vs Robber        meandiff = +0.03377  p_raw = 0.0959  p_fdr = 0.1438  
+       Jackpot vs Robber        meandiff = -0.00875  p_raw = 0.7461  p_fdr = 0.7461  
+
+--- Pairwise: incentive at Run 3 ---
+      Standard vs Jackpot       meandiff = +0.07019  p_raw < 0.001  p_fdr = 0.0029 *  **
+      Standard vs Robber        meandiff = +0.04550  p_raw = 0.0199  p_fdr = 0.0299 *  *
+       Jackpot vs Robber        meandiff = -0.02468  p_raw = 0.3447  p_fdr = 0.3447  
+
+================================================================================
+VARIABLE: RT (median)
+================================================================================
+
+--- ANOVA effects ---
+             incentive  F=18.53  df=2,134  p=0.0000 ***  [GG: eps=0.910, df=1.8,122.0, p_gg=0.0000]
+                   run  F=6.10  df=2,134  p=0.0029 **  [GG: eps=0.882, df=1.8,118.2, p_gg=0.0043]
+                  hold  F=110.48  df=1,67  p=0.0000 ***
+        incentive:hold  F=6.58  df=2,134  p=0.0019 **  [GG: eps=0.868, df=1.7,116.3, p_gg=0.0031]
+         incentive:run  F=2.58  df=4,268  p=0.0378   [GG: eps=0.732, df=2.9,196.2, p_gg=0.0563]
+              run:hold  F=7.38  df=2,134  p=0.0009 **  [GG: eps=0.891, df=1.8,119.3, p_gg=0.0015]
+
+--- Omnibus pairwise: incentive ---
+      Standard vs Jackpot       meandiff = -0.02035  p_raw < 0.001  p_fdr < 0.001 *  ***
+      Standard vs Robber        meandiff = -0.00761  p_raw = 0.0274  p_fdr = 0.0274 *  *
+       Jackpot vs Robber        meandiff = +0.01274  p_raw = 0.0014  p_fdr = 0.0020 *  **
+
+--- Pairwise: incentive at Short hold ---
+      Standard vs Jackpot       meandiff = -0.02840  p_raw < 0.001  p_fdr < 0.001 *  ***
+      Standard vs Robber        meandiff = -0.01110  p_raw = 0.0204  p_fdr = 0.0204 *  *
+       Jackpot vs Robber        meandiff = +0.01730  p_raw < 0.001  p_fdr < 0.001 *  ***
+
+--- Pairwise: incentive at Long hold ---
+      Standard vs Jackpot       meandiff = -0.01230  p_raw < 0.001  p_fdr < 0.001 *  ***
+      Standard vs Robber        meandiff = -0.00411  p_raw = 0.2153  p_fdr = 0.2153  
+       Jackpot vs Robber        meandiff = +0.00819  p_raw = 0.0741  p_fdr = 0.1112  
+
+--- Pairwise: incentive at Run 1 ---
+      Standard vs Jackpot       meandiff = -0.01673  p_raw < 0.001  p_fdr = 0.0022 *  **
+      Standard vs Robber        meandiff = +0.00348  p_raw = 0.4806  p_fdr = 0.4806  
+       Jackpot vs Robber        meandiff = +0.02021  p_raw = 0.0055  p_fdr = 0.0083 *  **
+
+--- Pairwise: incentive at Run 2 ---
+      Standard vs Jackpot       meandiff = -0.01943  p_raw < 0.001  p_fdr < 0.001 *  ***
+      Standard vs Robber        meandiff = -0.01136  p_raw = 0.0228  p_fdr = 0.0342 *  *
+       Jackpot vs Robber        meandiff = +0.00807  p_raw = 0.1924  p_fdr = 0.1924  
+
+--- Pairwise: incentive at Run 3 ---
+      Standard vs Jackpot       meandiff = -0.02488  p_raw < 0.001  p_fdr < 0.001 *  ***
+      Standard vs Robber        meandiff = -0.01494  p_raw < 0.001  p_fdr < 0.001 *  ***
+       Jackpot vs Robber        meandiff = +0.00995  p_raw = 0.0159  p_fdr = 0.0159 *  *
+
+================================================================================
+VARIABLE: false starts (mean)
+================================================================================
+
+--- ANOVA effects ---
+             incentive  F=16.09  df=2,134  p=0.0000 ***  [GG: eps=0.685, df=1.4,91.8, p_gg=0.0000]
+                   run  F=37.12  df=2,134  p=0.0000 ***  [GG: eps=0.979, df=2.0,131.1, p_gg=0.0000]
+                  hold  F=0.19  df=1,67  p=0.6677 
+        incentive:hold  F=2.90  df=2,134  p=0.0586   [GG: eps=0.840, df=1.7,112.5, p_gg=0.0683]
+         incentive:run  F=8.01  df=4,268  p=0.0000 ***  [GG: eps=0.666, df=2.7,178.6, p_gg=0.0001]
+              run:hold  F=2.04  df=2,134  p=0.1339   [GG: eps=0.931, df=1.9,124.8, p_gg=0.1375]
+
+--- Omnibus pairwise: incentive ---
+      Standard vs Jackpot       meandiff = +0.02880  p_raw < 0.001  p_fdr < 0.001 *  ***
+      Standard vs Robber        meandiff = +0.00195  p_raw = 0.5978  p_fdr = 0.5978  
+       Jackpot vs Robber        meandiff = -0.02684  p_raw < 0.001  p_fdr < 0.001 *  ***
+
+--- Pairwise: incentive at Short hold ---
+      Standard vs Jackpot       meandiff = +0.03840  p_raw < 0.001  p_fdr < 0.001 *  ***
+      Standard vs Robber        meandiff = +0.00105  p_raw = 0.7863  p_fdr = 0.7863  
+       Jackpot vs Robber        meandiff = -0.03735  p_raw < 0.001  p_fdr < 0.001 *  ***
+
+--- Pairwise: incentive at Long hold ---
+      Standard vs Jackpot       meandiff = +0.01920  p_raw = 0.0158  p_fdr = 0.0474 *  *
+      Standard vs Robber        meandiff = +0.00286  p_raw = 0.6635  p_fdr = 0.6635  
+       Jackpot vs Robber        meandiff = -0.01634  p_raw = 0.1197  p_fdr = 0.1795  
+
+--- Pairwise: incentive at Run 1 ---
+      Standard vs Jackpot       meandiff = +0.07035  p_raw < 0.001  p_fdr < 0.001 *  ***
+      Standard vs Robber        meandiff = +0.01608  p_raw = 0.1030  p_fdr = 0.1030  
+       Jackpot vs Robber        meandiff = -0.05427  p_raw = 0.0015  p_fdr = 0.0022 *  **
+
+--- Pairwise: incentive at Run 2 ---
+      Standard vs Jackpot       meandiff = +0.01536  p_raw = 0.0751  p_fdr = 0.1126  
+      Standard vs Robber        meandiff = -0.00338  p_raw = 0.5306  p_fdr = 0.5306  
+       Jackpot vs Robber        meandiff = -0.01873  p_raw = 0.0584  p_fdr = 0.1126  
+
+--- Pairwise: incentive at Run 3 ---
+      Standard vs Jackpot       meandiff = +0.00069  p_raw = 0.9130  p_fdr = 0.9130  
+      Standard vs Robber        meandiff = -0.00684  p_raw = 0.0960  p_fdr = 0.2879  
+       Jackpot vs Robber        meandiff = -0.00753  p_raw = 0.3440  p_fdr = 0.5160  
+
+================================================================================
+VARIABLE: max. velocity (median)
+================================================================================
+
+--- ANOVA effects ---
+             incentive  F=9.91  df=2,134  p=0.0001 ***  [GG: eps=0.700, df=1.4,93.7, p_gg=0.0007]
+                   run  F=0.54  df=2,134  p=0.5826   [GG: eps=0.787, df=1.6,105.4, p_gg=0.5410]
+                  hold  F=4.54  df=1,67  p=0.0367 *
+        incentive:hold  F=4.72  df=2,134  p=0.0105 *  [GG: eps=0.755, df=1.5,101.2, p_gg=0.0185]
+         incentive:run  F=4.67  df=4,268  p=0.0012 **  [GG: eps=0.683, df=2.7,182.9, p_gg=0.0048]
+              run:hold  F=0.14  df=2,134  p=0.8654   [GG: eps=0.852, df=1.7,114.2, p_gg=0.8324]
+
+--- Omnibus pairwise: incentive ---
+      Standard vs Jackpot       meandiff = -0.00008  p_raw = 0.9073  p_fdr = 0.9073  
+      Standard vs Robber        meandiff = +0.00450  p_raw = 0.0012  p_fdr = 0.0022 *  **
+       Jackpot vs Robber        meandiff = +0.00458  p_raw = 0.0014  p_fdr = 0.0022 *  **
+
+--- Pairwise: incentive at Short hold ---
+      Standard vs Jackpot       meandiff = -0.00346  p_raw = 0.0012  p_fdr = 0.0019 *  **
+      Standard vs Robber        meandiff = +0.00375  p_raw = 0.0086  p_fdr = 0.0086 *  **
+       Jackpot vs Robber        meandiff = +0.00722  p_raw < 0.001  p_fdr < 0.001 *  ***
+
+--- Pairwise: incentive at Long hold ---
+      Standard vs Jackpot       meandiff = +0.00330  p_raw = 0.0022  p_fdr = 0.0067 *  **
+      Standard vs Robber        meandiff = +0.00524  p_raw = 0.0204  p_fdr = 0.0305 *  *
+       Jackpot vs Robber        meandiff = +0.00194  p_raw = 0.3899  p_fdr = 0.3899  
+
+--- Pairwise: incentive at Run 1 ---
+      Standard vs Jackpot       meandiff = -0.00166  p_raw = 0.2244  p_fdr = 0.2244  
+      Standard vs Robber        meandiff = +0.00961  p_raw < 0.001  p_fdr < 0.001 *  ***
+       Jackpot vs Robber        meandiff = +0.01127  p_raw < 0.001  p_fdr < 0.001 *  ***
+
+--- Pairwise: incentive at Run 2 ---
+      Standard vs Jackpot       meandiff = +0.00028  p_raw = 0.8101  p_fdr = 0.8101  
+      Standard vs Robber        meandiff = +0.00191  p_raw = 0.3412  p_fdr = 0.7997  
+       Jackpot vs Robber        meandiff = +0.00163  p_raw = 0.5331  p_fdr = 0.7997  
+
+--- Pairwise: incentive at Run 3 ---
+      Standard vs Jackpot       meandiff = +0.00114  p_raw = 0.4394  p_fdr = 0.6263  
+      Standard vs Robber        meandiff = +0.00198  p_raw = 0.2114  p_fdr = 0.6263  
+       Jackpot vs Robber        meandiff = +0.00084  p_raw = 0.6263  p_fdr = 0.6263  
+
+================================================================================
+VARIABLE: max. acceleration (median)
+================================================================================
+
+--- ANOVA effects ---
+             incentive  F=17.99  df=2,134  p=0.0000 ***  [GG: eps=0.696, df=1.4,93.3, p_gg=0.0000]
+                   run  F=1.14  df=2,134  p=0.3226   [GG: eps=0.878, df=1.8,117.7, p_gg=0.3177]
+                  hold  F=0.21  df=1,67  p=0.6450 
+        incentive:hold  F=2.22  df=2,134  p=0.1121   [GG: eps=0.768, df=1.5,102.9, p_gg=0.1256]
+         incentive:run  F=2.82  df=4,268  p=0.0255   [GG: eps=0.613, df=2.5,164.3, p_gg=0.0512]
+              run:hold  F=2.49  df=2,134  p=0.0867   [GG: eps=0.932, df=1.9,124.9, p_gg=0.0907]
+
+--- Omnibus pairwise: incentive ---
+      Standard vs Jackpot       meandiff = +0.00167  p_raw < 0.001  p_fdr < 0.001 *  ***
+      Standard vs Robber        meandiff = +0.00461  p_raw < 0.001  p_fdr < 0.001 *  ***
+       Jackpot vs Robber        meandiff = +0.00294  p_raw = 0.0016  p_fdr = 0.0016 *  **
+
+--- Pairwise: incentive at Short hold ---
+      Standard vs Jackpot       meandiff = -0.00009  p_raw = 0.9126  p_fdr = 0.9126  
+      Standard vs Robber        meandiff = +0.00313  p_raw < 0.001  p_fdr < 0.001 *  ***
+       Jackpot vs Robber        meandiff = +0.00322  p_raw < 0.001  p_fdr < 0.001 *  ***
+
+--- Pairwise: incentive at Long hold ---
+      Standard vs Jackpot       meandiff = +0.00343  p_raw < 0.001  p_fdr < 0.001 *  ***
+      Standard vs Robber        meandiff = +0.00609  p_raw < 0.001  p_fdr < 0.001 *  ***
+       Jackpot vs Robber        meandiff = +0.00266  p_raw = 0.1484  p_fdr = 0.1484  
+
+--- Pairwise: incentive at Run 1 ---
+      Standard vs Jackpot       meandiff = +0.00051  p_raw = 0.5794  p_fdr = 0.5794  
+      Standard vs Robber        meandiff = +0.00735  p_raw < 0.001  p_fdr = 0.0024 *  **
+       Jackpot vs Robber        meandiff = +0.00685  p_raw = 0.0055  p_fdr = 0.0082 *  **
+
+--- Pairwise: incentive at Run 2 ---
+      Standard vs Jackpot       meandiff = +0.00255  p_raw = 0.0011  p_fdr = 0.0032 *  **
+      Standard vs Robber        meandiff = +0.00264  p_raw = 0.0378  p_fdr = 0.0567  
+       Jackpot vs Robber        meandiff = +0.00008  p_raw = 0.9521  p_fdr = 0.9521  
+
+--- Pairwise: incentive at Run 3 ---
+      Standard vs Jackpot       meandiff = +0.00196  p_raw = 0.0556  p_fdr = 0.0834  
+      Standard vs Robber        meandiff = +0.00385  p_raw = 0.0017  p_fdr = 0.0051 *  **
+       Jackpot vs Robber        meandiff = +0.00189  p_raw = 0.1683  p_fdr = 0.1683  
+
+================================================================================
+VARIABLE: time to max. vel. (median)
+================================================================================
+
+--- ANOVA effects ---
+             incentive  F=15.88  df=2,134  p=0.0000 ***  [GG: eps=0.884, df=1.8,118.4, p_gg=0.0000]
+                   run  F=7.81  df=2,134  p=0.0006 ***  [GG: eps=0.915, df=1.8,122.6, p_gg=0.0009]
+                  hold  F=97.66  df=1,67  p=0.0000 ***
+        incentive:hold  F=2.30  df=2,134  p=0.1042   [GG: eps=0.908, df=1.8,121.6, p_gg=0.1097]
+         incentive:run  F=3.24  df=4,268  p=0.0128 *  [GG: eps=0.709, df=2.8,190.1, p_gg=0.0255]
+              run:hold  F=6.69  df=2,134  p=0.0017 **  [GG: eps=0.908, df=1.8,121.6, p_gg=0.0024]
+
+--- Omnibus pairwise: incentive ---
+      Standard vs Jackpot       meandiff = -0.02143  p_raw < 0.001  p_fdr < 0.001 *  ***
+      Standard vs Robber        meandiff = -0.00736  p_raw = 0.0724  p_fdr = 0.0724  
+       Jackpot vs Robber        meandiff = +0.01406  p_raw = 0.0018  p_fdr = 0.0028 *  **
+
+--- Pairwise: incentive at Short hold ---
+      Standard vs Jackpot       meandiff = -0.02725  p_raw < 0.001  p_fdr < 0.001 *  ***
+      Standard vs Robber        meandiff = -0.01177  p_raw = 0.0259  p_fdr = 0.0259 *  *
+       Jackpot vs Robber        meandiff = +0.01548  p_raw = 0.0051  p_fdr = 0.0077 *  **
+
+--- Pairwise: incentive at Long hold ---
+      Standard vs Jackpot       meandiff = -0.01561  p_raw < 0.001  p_fdr < 0.001 *  ***
+      Standard vs Robber        meandiff = -0.00296  p_raw = 0.5224  p_fdr = 0.5224  
+       Jackpot vs Robber        meandiff = +0.01265  p_raw = 0.0235  p_fdr = 0.0352 *  *
+
+--- Pairwise: incentive at Run 1 ---
+      Standard vs Jackpot       meandiff = -0.01939  p_raw < 0.001  p_fdr < 0.001 *  ***
+      Standard vs Robber        meandiff = +0.00568  p_raw = 0.3607  p_fdr = 0.3607  
+       Jackpot vs Robber        meandiff = +0.02508  p_raw = 0.0042  p_fdr = 0.0063 *  **
+
+--- Pairwise: incentive at Run 2 ---
+      Standard vs Jackpot       meandiff = -0.02081  p_raw < 0.001  p_fdr = 0.0012 *  **
+      Standard vs Robber        meandiff = -0.01180  p_raw = 0.0109  p_fdr = 0.0163 *  *
+       Jackpot vs Robber        meandiff = +0.00901  p_raw = 0.1499  p_fdr = 0.1499  
+
+--- Pairwise: incentive at Run 3 ---
+      Standard vs Jackpot       meandiff = -0.02409  p_raw < 0.001  p_fdr < 0.001 *  ***
+      Standard vs Robber        meandiff = -0.01598  p_raw < 0.001  p_fdr < 0.001 *  ***
+       Jackpot vs Robber        meandiff = +0.00811  p_raw = 0.0631  p_fdr = 0.0631  
+
+================================================================================
+VARIABLE: time to max. acc. (median)
+================================================================================
+
+--- ANOVA effects ---
+             incentive  F=5.02  df=2,134  p=0.0079 *  [GG: eps=0.870, df=1.7,116.5, p_gg=0.0110]
+                   run  F=8.88  df=2,134  p=0.0002 ***  [GG: eps=0.961, df=1.9,128.7, p_gg=0.0003]
+                  hold  F=61.28  df=1,67  p=0.0000 ***
+        incentive:hold  F=5.32  df=2,134  p=0.0060 **  [GG: eps=0.948, df=1.9,127.1, p_gg=0.0069]
+         incentive:run  F=2.34  df=4,268  p=0.0556   [GG: eps=0.816, df=3.3,218.7, p_gg=0.0690]
+              run:hold  F=5.31  df=2,134  p=0.0060 **  [GG: eps=0.932, df=1.9,124.8, p_gg=0.0073]
+
+--- Omnibus pairwise: incentive ---
+      Standard vs Jackpot       meandiff = -0.01505  p_raw < 0.001  p_fdr = 0.0012 *  **
+      Standard vs Robber        meandiff = -0.00360  p_raw = 0.4701  p_fdr = 0.4701  
+       Jackpot vs Robber        meandiff = +0.01145  p_raw = 0.0498  p_fdr = 0.0747  
+
+--- Pairwise: incentive at Short hold ---
+      Standard vs Jackpot       meandiff = -0.02531  p_raw < 0.001  p_fdr < 0.001 *  ***
+      Standard vs Robber        meandiff = -0.01498  p_raw = 0.0260  p_fdr = 0.0391 *  *
+       Jackpot vs Robber        meandiff = +0.01033  p_raw = 0.1184  p_fdr = 0.1184  
+
+--- Pairwise: incentive at Long hold ---
+      Standard vs Jackpot       meandiff = -0.00480  p_raw = 0.3649  p_fdr = 0.3649  
+      Standard vs Robber        meandiff = +0.00778  p_raw = 0.1744  p_fdr = 0.2617  
+       Jackpot vs Robber        meandiff = +0.01258  p_raw = 0.1078  p_fdr = 0.2617  
+
+--- Pairwise: incentive at Run 1 ---
+      Standard vs Jackpot       meandiff = -0.01062  p_raw = 0.1223  p_fdr = 0.1628  
+      Standard vs Robber        meandiff = +0.01039  p_raw = 0.1628  p_fdr = 0.1628  
+       Jackpot vs Robber        meandiff = +0.02100  p_raw = 0.0388  p_fdr = 0.1164  
+
+--- Pairwise: incentive at Run 2 ---
+      Standard vs Jackpot       meandiff = -0.01450  p_raw = 0.0204  p_fdr = 0.0611  
+      Standard vs Robber        meandiff = -0.01177  p_raw = 0.0597  p_fdr = 0.0896  
+       Jackpot vs Robber        meandiff = +0.00273  p_raw = 0.7152  p_fdr = 0.7152  
+
+--- Pairwise: incentive at Run 3 ---
+      Standard vs Jackpot       meandiff = -0.02004  p_raw < 0.001  p_fdr = 0.0016 *  **
+      Standard vs Robber        meandiff = -0.00941  p_raw = 0.1187  p_fdr = 0.1187  
+       Jackpot vs Robber        meandiff = +0.01063  p_raw = 0.1113  p_fdr = 0.1187  
+
+================================================================================
+VARIABLE: initial X position (median)
+================================================================================
+
+--- ANOVA effects ---
+             incentive  F=1.63  df=2,134  p=0.2006   [GG: eps=0.867, df=1.7,116.2, p_gg=0.2040]
+                   run  F=0.88  df=2,134  p=0.4177   [GG: eps=0.906, df=1.8,121.4, p_gg=0.4088]
+                  hold  F=0.05  df=1,67  p=0.8219 
+        incentive:hold  F=1.64  df=2,134  p=0.1983   [GG: eps=0.789, df=1.6,105.8, p_gg=0.2036]
+         incentive:run  F=0.67  df=4,268  p=0.6114   [GG: eps=0.785, df=3.1,210.4, p_gg=0.5763]
+              run:hold  F=1.44  df=2,134  p=0.2402   [GG: eps=0.984, df=2.0,131.9, p_gg=0.2404]
+
+--- Omnibus pairwise: incentive ---
+      Standard vs Jackpot       meandiff = -0.00002  p_raw = 0.9526  p_fdr = 0.9526  
+      Standard vs Robber        meandiff = -0.00063  p_raw = 0.0760  p_fdr = 0.2280  
+       Jackpot vs Robber        meandiff = -0.00061  p_raw = 0.1978  p_fdr = 0.2967  
+
+--- Pairwise: incentive at Short hold ---
+      Standard vs Jackpot       meandiff = -0.00035  p_raw = 0.4296  p_fdr = 0.8279  
+      Standard vs Robber        meandiff = -0.00011  p_raw = 0.8279  p_fdr = 0.8279  
+       Jackpot vs Robber        meandiff = +0.00024  p_raw = 0.6407  p_fdr = 0.8279  
+
+--- Pairwise: incentive at Long hold ---
+      Standard vs Jackpot       meandiff = +0.00030  p_raw = 0.6233  p_fdr = 0.6233  
+      Standard vs Robber        meandiff = -0.00115  p_raw = 0.0591  p_fdr = 0.1772  
+       Jackpot vs Robber        meandiff = -0.00145  p_raw = 0.1200  p_fdr = 0.1801  
+
+--- Pairwise: incentive at Run 1 ---
+      Standard vs Jackpot       meandiff = +0.00045  p_raw = 0.4395  p_fdr = 0.4395  
+      Standard vs Robber        meandiff = -0.00080  p_raw = 0.1802  p_fdr = 0.2703  
+       Jackpot vs Robber        meandiff = -0.00125  p_raw = 0.0757  p_fdr = 0.2272  
+
+--- Pairwise: incentive at Run 2 ---
+      Standard vs Jackpot       meandiff = -0.00056  p_raw = 0.3270  p_fdr = 0.7347  
+      Standard vs Robber        meandiff = -0.00026  p_raw = 0.7084  p_fdr = 0.7347  
+       Jackpot vs Robber        meandiff = +0.00030  p_raw = 0.7347  p_fdr = 0.7347  
+
+--- Pairwise: incentive at Run 3 ---
+      Standard vs Jackpot       meandiff = +0.00004  p_raw = 0.9473  p_fdr = 0.9473  
+      Standard vs Robber        meandiff = -0.00083  p_raw = 0.2130  p_fdr = 0.5121  
+       Jackpot vs Robber        meandiff = -0.00087  p_raw = 0.3414  p_fdr = 0.5121  
+
+================================================================================
+VARIABLE: initial Y position (median)
+================================================================================
+
+--- ANOVA effects ---
+             incentive  F=0.21  df=2,134  p=0.8110   [GG: eps=0.923, df=1.8,123.7, p_gg=0.7937]
+                   run  F=5.13  df=2,134  p=0.0071 **  [GG: eps=0.910, df=1.8,122.0, p_gg=0.0090]
+                  hold  F=1.81  df=1,67  p=0.1826 
+        incentive:hold  F=2.39  df=2,134  p=0.0955   [GG: eps=0.915, df=1.8,122.6, p_gg=0.1006]
+         incentive:run  F=0.67  df=4,268  p=0.6122   [GG: eps=0.749, df=3.0,200.8, p_gg=0.5702]
+              run:hold  F=0.03  df=2,134  p=0.9667   [GG: eps=0.940, df=1.9,126.0, p_gg=0.9605]
+
+--- Omnibus pairwise: incentive ---
+      Standard vs Jackpot       meandiff = -0.00023  p_raw = 0.5009  p_fdr = 0.7721  
+      Standard vs Robber        meandiff = -0.00011  p_raw = 0.7232  p_fdr = 0.7721  
+       Jackpot vs Robber        meandiff = +0.00012  p_raw = 0.7721  p_fdr = 0.7721  
+
+--- Pairwise: incentive at Short hold ---
+      Standard vs Jackpot       meandiff = +0.00004  p_raw = 0.9225  p_fdr = 0.9225  
+      Standard vs Robber        meandiff = -0.00063  p_raw = 0.0970  p_fdr = 0.2308  
+       Jackpot vs Robber        meandiff = -0.00067  p_raw = 0.1538  p_fdr = 0.2308  
+
+--- Pairwise: incentive at Long hold ---
+      Standard vs Jackpot       meandiff = -0.00050  p_raw = 0.3264  p_fdr = 0.4538  
+      Standard vs Robber        meandiff = +0.00040  p_raw = 0.4538  p_fdr = 0.4538  
+       Jackpot vs Robber        meandiff = +0.00090  p_raw = 0.1821  p_fdr = 0.4538  
+
+--- Pairwise: incentive at Run 1 ---
+      Standard vs Jackpot       meandiff = +0.00005  p_raw = 0.9110  p_fdr = 0.9110  
+      Standard vs Robber        meandiff = -0.00018  p_raw = 0.6832  p_fdr = 0.9110  
+       Jackpot vs Robber        meandiff = -0.00024  p_raw = 0.6829  p_fdr = 0.9110  
+
+--- Pairwise: incentive at Run 2 ---
+      Standard vs Jackpot       meandiff = -0.00066  p_raw = 0.2621  p_fdr = 0.3931  
+      Standard vs Robber        meandiff = +0.00026  p_raw = 0.7044  p_fdr = 0.7044  
+       Jackpot vs Robber        meandiff = +0.00092  p_raw = 0.2219  p_fdr = 0.3931  
+
+--- Pairwise: incentive at Run 3 ---
+      Standard vs Jackpot       meandiff = -0.00008  p_raw = 0.8827  p_fdr = 0.8827  
+      Standard vs Robber        meandiff = -0.00041  p_raw = 0.4756  p_fdr = 0.8827  
+       Jackpot vs Robber        meandiff = -0.00033  p_raw = 0.6701  p_fdr = 0.8827  
+
+================================================================================
+VARIABLE: time to quarter acc. (median)
+================================================================================
+
+--- ANOVA effects ---
+             incentive  F=18.62  df=2,134  p=0.0000 ***  [GG: eps=0.895, df=1.8,119.9, p_gg=0.0000]
+                   run  F=8.14  df=2,134  p=0.0005 ***  [GG: eps=0.884, df=1.8,118.5, p_gg=0.0008]
+                  hold  F=111.59  df=1,67  p=0.0000 ***
+        incentive:hold  F=4.25  df=2,134  p=0.0162 *  [GG: eps=0.860, df=1.7,115.3, p_gg=0.0213]
+         incentive:run  F=2.98  df=4,268  p=0.0195 *  [GG: eps=0.705, df=2.8,188.8, p_gg=0.0355]
+              run:hold  F=6.03  df=2,134  p=0.0031 **  [GG: eps=0.886, df=1.8,118.7, p_gg=0.0045]
+
+--- Omnibus pairwise: incentive ---
+      Standard vs Jackpot       meandiff = -0.02009  p_raw < 0.001  p_fdr < 0.001 *  ***
+      Standard vs Robber        meandiff = -0.00702  p_raw = 0.0360  p_fdr = 0.0360 *  *
+       Jackpot vs Robber        meandiff = +0.01307  p_raw = 0.0011  p_fdr = 0.0016 *  **
+
+--- Pairwise: incentive at Short hold ---
+      Standard vs Jackpot       meandiff = -0.02698  p_raw < 0.001  p_fdr < 0.001 *  ***
+      Standard vs Robber        meandiff = -0.01061  p_raw = 0.0214  p_fdr = 0.0214 *  *
+       Jackpot vs Robber        meandiff = +0.01637  p_raw = 0.0019  p_fdr = 0.0028 *  **
+
+--- Pairwise: incentive at Long hold ---
+      Standard vs Jackpot       meandiff = -0.01320  p_raw < 0.001  p_fdr < 0.001 *  ***
+      Standard vs Robber        meandiff = -0.00344  p_raw = 0.3400  p_fdr = 0.3400  
+       Jackpot vs Robber        meandiff = +0.00976  p_raw = 0.0270  p_fdr = 0.0404 *  *
+
+--- Pairwise: incentive at Run 1 ---
+      Standard vs Jackpot       meandiff = -0.01234  p_raw = 0.0150  p_fdr = 0.0268 *  *
+      Standard vs Robber        meandiff = +0.00688  p_raw = 0.2107  p_fdr = 0.2107  
+       Jackpot vs Robber        meandiff = +0.01923  p_raw = 0.0178  p_fdr = 0.0268 *  *
+
+--- Pairwise: incentive at Run 2 ---
+      Standard vs Jackpot       meandiff = -0.02281  p_raw < 0.001  p_fdr < 0.001 *  ***
+      Standard vs Robber        meandiff = -0.01211  p_raw = 0.0074  p_fdr = 0.0111 *  *
+       Jackpot vs Robber        meandiff = +0.01071  p_raw = 0.0717  p_fdr = 0.0717  
+
+--- Pairwise: incentive at Run 3 ---
+      Standard vs Jackpot       meandiff = -0.02511  p_raw < 0.001  p_fdr < 0.001 *  ***
+      Standard vs Robber        meandiff = -0.01585  p_raw < 0.001  p_fdr < 0.001 *  ***
+       Jackpot vs Robber        meandiff = +0.00927  p_raw = 0.0596  p_fdr = 0.0596  
+
+================================================================================
+END OF REPORT
+================================================================================
