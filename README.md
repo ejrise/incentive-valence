@@ -177,6 +177,15 @@ Dundon, N. M., Rizor, E.J., Stasiak, J., Wang, J., Li, T., Sabugo, K., Villaneuv
 ```
 ---
 
+## Acknowledgements
+This research was funded in whole by Aligning Science Across Parkinson’s ASAP-020-519 through the Michael J. Fox Foundation for Parkinson’s Research (MJFF).
+
+This work was created by members of Socal Kinesia and Incentivization for Parkinson's Disease (SKIP). 
+
+More information about SKIP can be found here: https://socalkinesia.org/
+
+---
+
 ## License
 
 This repository is licensed under the [MIT License](LICENSE).
